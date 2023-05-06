@@ -1,0 +1,44 @@
+{
+  "name": "latn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/do1407it/luanantotnghiep.git"
+  },
+  "keywords": [
+    "luan",
+    "an",
+    "tot",
+    "nghiep"
+  ],
+  "author": "dinh do",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/do1407it/luanantotnghiep/issues"
+  },
+  "homepage": "https://github.com/do1407it/luanantotnghiep#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "country-iso-2-to-3": "^1.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "faker": "^6.6.6",
+    "helmet": "^6.0.0",
+    "mongodb": "^5.3.0",
+    "mongoose": "^6.7.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
