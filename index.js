@@ -47,9 +47,9 @@ function authenticateToken(req, res, next) {
 }
 /* ROUTES */
 app.use("/client", authenticateToken, clientRoutes);
-app.use("/general", authenticateToken, generalRoutes);
-app.use("/management", authenticateToken, managementRoutes);
-app.use("/sales", authenticateToken, salesRoutes);
+app.use("/general", generalRoutes);
+app.use("/management", managementRoutes);
+app.use("/sales", salesRoutes);
 app.use("/user", userRoutes);
 app.get("/posts", authenticateToken, (req, res) => {
     res.json({ posts: [{ title: "Post 1" }, { title: "Post 2" }] });
